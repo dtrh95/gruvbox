@@ -1197,20 +1197,26 @@ hi! link typeScriptReserved GruvboxAqua
 hi! link typeScriptLabel GruvboxAqua
 hi! link typeScriptFuncKeyword GruvboxAqua
 hi! link typeScriptIdentifier GruvboxOrange
-hi! link typeScriptBraces GruvboxFg1
+hi! link typeScriptBraces GruvboxPurple
 hi! link typeScriptEndColons GruvboxFg1
-hi! link typeScriptDOMObjects GruvboxFg1
+hi! link typeScriptDOMObjects GruvboxPurple
 hi! link typeScriptAjaxMethods GruvboxFg1
 hi! link typeScriptLogicSymbols GruvboxFg1
 hi! link typeScriptDocSeeTag Comment
 hi! link typeScriptDocParam Comment
 hi! link typeScriptDocTags vimCommentTitle
-hi! link typeScriptGlobalObjects GruvboxFg1
-hi! link typeScriptParens GruvboxFg3
+hi! link typeScriptGlobalObjects GruvboxPurple
+hi! link typeScriptParens GruvboxBlue
 hi! link typeScriptOpSymbols GruvboxFg3
-hi! link typeScriptHtmlElemProperties GruvboxFg1
+hi! link typeScriptHtmlElemProperties GruvboxBlue
 hi! link typeScriptNull GruvboxPurple
 hi! link typeScriptInterpolationDelimiter GruvboxAqua
+hi! link typeScriptVars GruvboxBlueSign
+hi! link typeScriptParameters GruvboxRedSign
+hi! link typeScriptArrowFunc GruvboxPurple
+hi! link typeScriptArrowFuncArg GruvboxOrange
+hi! link typeScriptObjectColon GruvboxBlueBold
+hi! link typeScriptObjectLiteral GruvboxOrange
 
 " }}}
 " PureScript: {{{
