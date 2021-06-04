@@ -933,8 +933,8 @@ hi! link diffLine GruvboxBlue
 hi! link htmlTag GruvboxBlue
 hi! link htmlEndTag GruvboxBlue
 
-hi! link htmlTagName GruvboxAquaBold
-hi! link htmlArg GruvboxAqua
+hi! link htmlTagName GruvboxRedBold
+hi! link htmlArg GruvboxOrangeBold
 
 hi! link htmlScriptTag GruvboxPurple
 hi! link htmlTagN GruvboxFg1
@@ -1217,6 +1217,7 @@ hi! link typeScriptArrowFunc GruvboxPurple
 hi! link typeScriptArrowFuncArg GruvboxOrange
 hi! link typeScriptObjectColon GruvboxBlueBold
 hi! link typeScriptObjectLiteral GruvboxOrange
+hi! link typescriptDecorator GruvboxYellowSign
 
 " }}}
 " PureScript: {{{
