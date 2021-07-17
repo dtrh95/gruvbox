@@ -957,7 +957,7 @@ hi! link TelescopeMatching GruvboxBlue
 hi! link TelescopePromptPrefix GruvboxRed
 hi! link TelescopePrompt GruvboxFg1
 " }}}
-" LspSaga {{{
+" LspSaga: {{{
 hi! link LspSagaDiagnosticBorder GruvboxFg1
 hi! link LspSagaDiagnosticHeader GruvboxRed
 hi! link LspSagaDiagnosticTruncateLine GruvboxFg1
@@ -992,7 +992,61 @@ call s:HL('LspSagaCodeActionBorder', s:none, s:none, s:bold, s:orange)
 call s:HL('LspSagaDefPreviewBorder', s:none, s:none, s:bold, s:orange)
 call s:HL('LspLinesDiagBorder', s:none, s:none, s:bold, s:orange)
 " }}}
-"
+" Treesitter: {{{
+hi! link TSError Error
+hi! link TSTitle Title
+hi! link TSLiteral String
+hi! link TSURI Underlined
+hi! link TSVariable GruvboxFg1
+hi! link TSPunctDelimiter Delimiter
+hi! link TSPunctBracket Delimiter
+hi! link TSPunctSpecial Delimiter
+hi! link TSConstant Constant
+hi! link TSConstBuiltin Special
+hi! link TSConstMacro Define
+hi! link TSString String
+hi! link TSStringRegex String
+hi! link TSStringEscape GruvboxOrange
+hi! link TSCharacter Character
+hi! link TSNumber Number
+hi! link TSBoolean Boolean
+hi! link TSFloat Float
+hi! link TSFunction Function
+hi! link TSFuncBuiltin Special
+hi! link TSFuncMacro Macro
+hi! link TSParameter Identifier
+hi! link TSParameterReference TSParameter
+hi! link TSMethod Function
+hi! link TSField Identifier
+hi! link TSProperty Identifier
+hi! link TSConstructor Special
+hi! link TSAnnotation PreProc
+hi! link TSAttribute PreProc
+hi! link TSNamespace Include
+hi! link TSConditional Conditional
+hi! link TSRepeat Repeat
+hi! link TSLabel Label
+hi! link TSOperator Operator
+hi! link TSKeyword Keyword
+hi! link TSKeywordFunction Keyword
+hi! link TSKeywordOperator TSOperator
+hi! link TSException Exception
+hi! link TSType Type
+hi! link TSTypeBuiltin Type
+hi! link TSInclude Include
+hi! link TSVariableBuiltin Special
+hi! link TSComment Comment
+hi! link TSStructure GruvboxOrange
+hi! link TSTag GruvboxOrange
+hi! link TSTagDelimiter GruvboxGreen
+hi! link TSStrong gui = styles.bold
+hi! link TSEmphasis gui = styles.italic_strings
+hi! link TSUnderline gui = styles.underline
+call s:HL('TSStrong', s:none, s:none, s:bold, s:fg1)
+call s:HL('TSEmphasis', s:none, s:none, s:italic_strings, s:fg1)
+call s:HL('TSUnderline', s:none, s:none, s:underline, s:fg1)
+" }}}
+" 
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
 
@@ -1280,7 +1334,7 @@ hi! link typeScriptEndColons GruvboxFg1
 hi! link typeScriptDOMObjects GruvboxPurple
 hi! link typeScriptAjaxMethods GruvboxFg1
 hi! link typeScriptLogicSymbols GruvboxFg1
-hi! link typeScriptDocSeeTag Comment
+hi! link typeScriptDocSeeTag GruvboxBlueBold
 hi! link typeScriptDocParam Comment
 hi! link typeScriptDocTags vimCommentTitle
 hi! link typeScriptGlobalObjects GruvboxPurple
