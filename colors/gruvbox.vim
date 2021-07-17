@@ -915,6 +915,34 @@ call s:HL('CocHintHighlight', s:none, s:none, s:undercurl, s:blue)
 
 " }}}
 
+" LSP: {{{
+hi! link  GruvboxRed
+hi! link  GruvboxGray
+hi! LspDiagnosticsDefaultError GruvboxRed
+hi! LspDiagnosticsSignError GruvboxRedSign
+hi! LspDiagnosticsUnderlineError GruvboxRed
+hi! LspDiagnosticsDefaultWarning GruvboxYellow
+hi! LspDiagnosticsSignWarning GruvboxYellowSign
+hi! LspDiagnosticsUnderlineWarning GruvboxYellow
+hi! LspDiagnosticsDefaultInformation GruvboxBlue
+hi! LspDiagnosticsSignInformation GruvboxBlueSign
+hi! LspDiagnosticsUnderlineInformation GruvboxBlue
+hi! LspDiagnosticsDefaultHint GruvboxAqua
+hi! LspDiagnosticsSignHint GruvboxAquaSign
+hi! LspDiagnosticsUnderlineHint GruvboxAqua
+hi! LspDiagnosticsFloatingError GruvboxRed
+hi! LspDiagnosticsFloatingWarning GruvboxOrange
+hi! LspDiagnosticsFloatingInformation GruvboxBlue
+hi! LspDiagnosticsFloatingHint GruvboxAqua
+hi! LspDiagnosticsVirtualTextError GruvboxRed
+hi! LspDiagnosticsVirtualTextWarning GruvboxYellow
+hi! LspDiagnosticsVirtualTextInformation GruvboxBlue
+hi! LspDiagnosticsVirtualTextHint GruvboxAqua
+hi! LspReferenceRead GruvboxYellowBold
+hi! LspReferenceText GruvboxYellowBold
+hi! LspReferenceWrite GruvboxYellowBold
+" }}}
+"
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
 
