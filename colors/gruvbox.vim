@@ -914,7 +914,6 @@ call s:HL('CocInfoHighlight', s:none, s:none, s:undercurl, s:yellow)
 call s:HL('CocHintHighlight', s:none, s:none, s:undercurl, s:blue)
 
 " }}}
-
 " LSP: {{{
 hi! link LspDiagnosticsDefaultError GruvboxRed
 hi! link LspDiagnosticsSignError GruvboxRedSign
@@ -944,6 +943,19 @@ call s:HL('LspDiagnosticsUnderlineError', s:none, s:none, s:undercurl, s:red)
 call s:HL('LspDiagnosticsUnderlineWarning', s:none, s:none, s:undercurl, s:orange)
 call s:HL('LspDiagnosticsUnderlineInformation', s:none, s:none, s:undercurl, s:yellow)
 call s:HL('LspDiagnosticsUnderlineHint', s:none, s:none, s:undercurl, s:blue)
+" }}}
+" Telescope {{{
+hi! link TelescopeSelection GruvboxOrangeBold
+hi! link TelescopeSlectionCaret GruvboxRed
+hi! link TelescopeMultiSelection GruvboxGray
+hi! link TelescopeNormal GruvboxFg1
+hi! link TelescopeBorder GruvboxFg1
+hi! link TelescopePromptBorder GruvboxFg1
+hi! link TelescopeResultsBorder GruvboxFg1
+hi! link TelescopePreviewBorder GruvboxFg1
+hi! link TelescopeMatching GruvboxBlue
+hi! link TelescopePromptPrefix GruvboxRed
+hi! link TelescopePrompt GruvboxFg1
 " }}}
 "
 " Filetype specific -----------------------------------------------------------
