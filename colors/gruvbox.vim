@@ -1039,9 +1039,6 @@ hi! link TSComment Comment
 hi! link TSStructure GruvboxOrange
 hi! link TSTag GruvboxOrange
 hi! link TSTagDelimiter GruvboxGreen
-hi! link TSStrong gui = styles.bold
-hi! link TSEmphasis gui = styles.italic_strings
-hi! link TSUnderline gui = styles.underline
 call s:HL('TSStrong', s:none, s:none, s:bold, s:fg1)
 call s:HL('TSEmphasis', s:none, s:none, s:italic_strings, s:fg1)
 call s:HL('TSUnderline', s:none, s:none, s:underline, s:fg1)
