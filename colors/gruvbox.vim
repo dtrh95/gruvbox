@@ -939,6 +939,11 @@ hi! link LspDiagnosticsVirtualTextHint GruvboxAqua
 hi! link LspReferenceRead GruvboxYellowBold
 hi! link LspReferenceText GruvboxYellowBold
 hi! link LspReferenceWrite GruvboxYellowBold
+
+call s:HL('LspDiagnosticsUnderlineError', s:none, s:none, s:undercurl, s:red)
+call s:HL('LspDiagnosticsUnderlineWarning', s:none, s:none, s:undercurl, s:orange)
+call s:HL('LspDiagnosticsUnderlineInformation', s:none, s:none, s:undercurl, s:yellow)
+call s:HL('LspDiagnosticsUnderlineHint', s:none, s:none, s:undercurl, s:blue)
 " }}}
 "
 " Filetype specific -----------------------------------------------------------
