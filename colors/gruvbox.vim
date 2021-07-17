@@ -916,31 +916,29 @@ call s:HL('CocHintHighlight', s:none, s:none, s:undercurl, s:blue)
 " }}}
 
 " LSP: {{{
-hi! link  GruvboxRed
-hi! link  GruvboxGray
-hi! LspDiagnosticsDefaultError GruvboxRed
-hi! LspDiagnosticsSignError GruvboxRedSign
-hi! LspDiagnosticsUnderlineError GruvboxRed
-hi! LspDiagnosticsDefaultWarning GruvboxYellow
-hi! LspDiagnosticsSignWarning GruvboxYellowSign
-hi! LspDiagnosticsUnderlineWarning GruvboxYellow
-hi! LspDiagnosticsDefaultInformation GruvboxBlue
-hi! LspDiagnosticsSignInformation GruvboxBlueSign
-hi! LspDiagnosticsUnderlineInformation GruvboxBlue
-hi! LspDiagnosticsDefaultHint GruvboxAqua
-hi! LspDiagnosticsSignHint GruvboxAquaSign
-hi! LspDiagnosticsUnderlineHint GruvboxAqua
-hi! LspDiagnosticsFloatingError GruvboxRed
-hi! LspDiagnosticsFloatingWarning GruvboxOrange
-hi! LspDiagnosticsFloatingInformation GruvboxBlue
-hi! LspDiagnosticsFloatingHint GruvboxAqua
-hi! LspDiagnosticsVirtualTextError GruvboxRed
-hi! LspDiagnosticsVirtualTextWarning GruvboxYellow
-hi! LspDiagnosticsVirtualTextInformation GruvboxBlue
-hi! LspDiagnosticsVirtualTextHint GruvboxAqua
-hi! LspReferenceRead GruvboxYellowBold
-hi! LspReferenceText GruvboxYellowBold
-hi! LspReferenceWrite GruvboxYellowBold
+hi! link LspDiagnosticsDefaultError GruvboxRed
+hi! link LspDiagnosticsSignError GruvboxRedSign
+hi! link LspDiagnosticsUnderlineError GruvboxRed
+hi! link LspDiagnosticsDefaultWarning GruvboxYellow
+hi! link LspDiagnosticsSignWarning GruvboxYellowSign
+hi! link LspDiagnosticsUnderlineWarning GruvboxYellow
+hi! link LspDiagnosticsDefaultInformation GruvboxBlue
+hi! link LspDiagnosticsSignInformation GruvboxBlueSign
+hi! link LspDiagnosticsUnderlineInformation GruvboxBlue
+hi! link LspDiagnosticsDefaultHint GruvboxAqua
+hi! link LspDiagnosticsSignHint GruvboxAquaSign
+hi! link LspDiagnosticsUnderlineHint GruvboxAqua
+hi! link LspDiagnosticsFloatingError GruvboxRed
+hi! link LspDiagnosticsFloatingWarning GruvboxOrange
+hi! link LspDiagnosticsFloatingInformation GruvboxBlue
+hi! link LspDiagnosticsFloatingHint GruvboxAqua
+hi! link LspDiagnosticsVirtualTextError GruvboxRed
+hi! link LspDiagnosticsVirtualTextWarning GruvboxYellow
+hi! link LspDiagnosticsVirtualTextInformation GruvboxBlue
+hi! link LspDiagnosticsVirtualTextHint GruvboxAqua
+hi! link LspReferenceRead GruvboxYellowBold
+hi! link LspReferenceText GruvboxYellowBold
+hi! link LspReferenceWrite GruvboxYellowBold
 " }}}
 "
 " Filetype specific -----------------------------------------------------------
