@@ -957,6 +957,41 @@ hi! link TelescopeMatching GruvboxBlue
 hi! link TelescopePromptPrefix GruvboxRed
 hi! link TelescopePrompt GruvboxFg1
 " }}}
+" LspSaga {{{
+hi! link LspSagaDiagnosticBorder GruvboxFg1
+hi! link LspSagaDiagnosticHeader GruvboxRed
+hi! link LspSagaDiagnosticTruncateLine GruvboxFg1
+hi! link LspFloatWinBorder GruvboxFg1
+hi! link LspSagaBorderTitle Title
+hi! link TargetWord Error
+hi! link ReferencesCount Title
+hi! link ReferencesIcon Special
+hi! link DefinitionCount Title
+hi! link TargetFileName Comment
+hi! link DefinitionIcon Special
+hi! link ProviderTruncateLine GruvboxFg1
+hi! link SagaShadow GruvboxBg0
+hi! link LspSagaFinderSelection Search
+hi! link DiagnosticTruncateLine GruvboxFg1
+hi! link DiagnosticError LspDiagnosticsDefaultError
+hi! link DiagnosticWarning LspDiagnosticsDefaultWarning
+hi! link DiagnosticInformation LspDiagnosticsDefaultInformation
+hi! link DiagnosticHint LspDiagnosticsDefaultHint
+hi! link DefinitionPreviewTitle Title
+hi! link LspSagaShTruncateLine GruvboxFg1
+hi! link LspSagaDocTruncateLine GruvboxFg1
+hi! link LineDiagTuncateLine GruvboxFg1
+hi! link LspSagaCodeActionTitle Title
+hi! link LspSagaCodeActionTruncateLine GruvboxFg1
+hi! link LspSagaCodeActionContent Normal
+hi! link LspSagaRenamePromptPrefix GruvboxFg2
+call s:HL('LspSagaRenameBorder', s:none, s:none, s:bold, s:red)
+call s:HL('LspSagaHoverBorder', s:none, s:none, s:bold, s:orange)
+call s:HL('LspSagaSignatureHelpBorder', s:none, s:none, s:bold, s:orange)
+call s:HL('LspSagaCodeActionBorder', s:none, s:none, s:bold, s:orange)
+call s:HL('LspSagaDefPreviewBorder', s:none, s:none, s:bold, s:orange)
+call s:HL('LspLinesDiagBorder', s:none, s:none, s:bold, s:orange)
+" }}}
 "
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
